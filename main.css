@@ -1,0 +1,69 @@
+#logo{
+    width:200px;
+    height:60px;
+    padding: 7px;
+}
+
+ul{
+     display:flex;
+    justify-content: left;
+    flex-wrap:wrap;
+
+
+}
+li{
+    list-style: none;
+    text-align: left;
+   
+    padding: 10px;
+    
+}
+
+.btn{
+margin-left:auto;
+padding:1em;
+margin: 0px;
+}
+.checkboxes{
+    display: flex;
+    padding:0;
+    margin:0px;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+.background{
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    padding:0px;
+    margin:0px;
+
+}
+@font-face {
+    font-family: "Whitney";
+    src: url("https://www.typography.com/fonts/whitney/characters");
+  }
+  @media only screen and (max-width: 900em){*{
+    font-family: "Whitney";
+    font-size: 13px;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(47, 47, 71);
+  }}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+    padding:0px;
+    margin:0px;
+}
+#submit{
+    background-color: red;
+}
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom:0;
+}
